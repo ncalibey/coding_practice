@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Bob's Auto Parts - Feedback</title>
+    <meta charset="utf-8" />
+    <style>
+      html { font-family: sans-serif; }
+
+      dd { margin: 0; }
+    </style>
+  </head>
+
+  <body>
+    <h1>Customer Feedback</h1>
+    <p>Please tell us what you think.</p>
+
+    <form action="processfeedback.php" method="post">
+      <dl>
+        <dt>
+          <label for="name">Your name:</label>
+        </dt>
+        <dd>
+          <input type="text" name="name" id="name" />
+        </dd>
+        <dt>
+          <label for="email">Your email address:</label>
+        </dt>
+        <dd>
+          <input type="text" name="email" id="email" />
+        </dd>
+        <dt>
+          <label for="feedback">Your feedback:</label>
+        </dt>
+        <dd>
+          <textarea cols="80" rows="10" name="feedback" id="feedback"></textarea>
+        </dd>
+      </dl>
+      <input type="submit" value="Send Feedback" />
+    </form>
+  </body>
+</html>
