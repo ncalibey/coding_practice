@@ -1,0 +1,59 @@
+body { background-color: #EEE; }
+#content {
+  padding: 50px;
+  margin: 40px;
+  background-color: rgba(255, 255, 255, .48);
+  text-align: center;
+}
+
+#content p {
+  font: normal 28px Helvetica, sans-serif;
+  line-height: 40px;
+  color: #111;
+}
+
+h1 {
+  text-transform: capitalize;
+  font: normal 40px sans-serif;
+  padding: 10px;
+  margin: 40px;
+  background-color: rgba(20, 20, 20, .8);
+  color: #FFF;
+}
+
+#bigYellowCircle {
+  background-image: url("http://bit.ly/yellowCircle");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 90%;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  opacity: .75;
+}
+
+#blueSquare {
+  background-image: url("http://bit.ly/blueSquare");
+  background-repeat: no-repeat;
+  background-position: 97% bottom;
+  background-size: 10%;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+  opacity: .75;
+}
+
+#greenPentagon {
+  background: url("http://bit.ly/greenPentagon") 5% top no-repeat;
+  background-size: 50%;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -3;
+  opacity: .75;
+}
